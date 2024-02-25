@@ -1,0 +1,14 @@
+@import "variables";
+.card{
+    height: var(--default__height);
+    padding: var(--default__padding);
+    width: var(--default__width);
+
+}
+
+.card:hover{
+    height: var(--hover__height);
+    padding: var(--hover__padding);
+    width: var(--hover__width);
+
+}

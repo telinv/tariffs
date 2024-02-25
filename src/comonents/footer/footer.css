@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    align-items: center;
+    height: 7rem;
+    background-color: rgb(190, 190, 190);
+    border: 1px solid white;
+}
+.speed{
+    background-color: rgb(237, 237, 237);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerText{
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+}

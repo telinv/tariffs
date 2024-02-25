@@ -1,0 +1,30 @@
+@import "../variables.css";
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6em;
+    border: 1px solid white;
+    font-weight: bolder;
+    font-size: 25pt;
+    color: var(--color__default);
+}
+
+.main:first-child{
+    background-color: var(--color__first);
+}
+
+.main:nth-child(2){
+    background-color: var(--color__second);
+}
+.main:nth-child(3){
+    background-color: var(--color__third);
+}
+.main:nth-child(4){
+    background-color: var(--color__fourth);
+}
+
+p{
+    font-weight: lighter;
+    font-size: 13pt;
+}
