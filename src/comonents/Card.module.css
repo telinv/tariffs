@@ -11,4 +11,32 @@
     padding: var(--hover__padding);
     width: var(--hover__width);
 
+
+}
+.card:nth-child(1) header{
+    background-color: var(--color__first);
+}
+
+.card:nth-child(2) header{
+    background-color: var(--color__second);
+}
+.card:nth-child(3) header{
+    background-color: var(--color__third);
+}
+.card:nth-child(4) header{
+    background-color: var(--color__fourth);
+}
+
+.card:nth-child(1) main{
+    background-color: var(--color__first);
+}
+
+.card:nth-child(2) main{
+    background-color: var(--color__second);
+}
+.card:nth-child(3) main{
+    background-color: var(--color__third);
+}
+.card:nth-child(4) main{
+    background-color: var(--color__fourth);
 }

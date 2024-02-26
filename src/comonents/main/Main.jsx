@@ -3,11 +3,7 @@ import styles from './Main.module.css';
 
 function Main({price}) {
   return (
-    <div className={styles.main}>
-      <p>руб </p>
-      { price}
-      <p>/мес</p>
-      </div>
+    <main className={styles.main}>руб {price} /мес</main>
   )
 }
 

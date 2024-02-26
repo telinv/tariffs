@@ -1,10 +1,11 @@
 
 :root{  
---default__height: 200;
---default__width: 175;
---default__padding: 15%;
---hover__height: 250;
---hover__width: 200;
+--default__height: 500px;
+--default__width: 250px;
+--default__padding: 2%;
+--hover__height: 630px;
+--hover__padding: 1%;
+--hover__width: 300px;
 --color__default: white;
 --color__first:rgb(0, 140, 255);
 --color__second: rgb(74, 203, 104);

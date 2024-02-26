@@ -7,12 +7,10 @@ import './cardContainer.css'
 
 function CardContainer() {
   return (
-    <div className='cardContainer'>{
-        TariffsList.map((tariff , index)=>
+    <div className='cardContainer'>
+        {TariffsList.map((tariff , index)=>
             (
-                <div key={index}>
-                    <CardStructure props = {tariff}/>
-                </div>
+                    <CardStructure props = {tariff} key={index}/>
             )
         )
         }
