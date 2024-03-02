@@ -1,9 +1,9 @@
 
 :root{  
---default__height: 500px;
+--default__height: 400px;
 --default__width: 250px;
 --default__padding: 2%;
---hover__height: 630px;
+--hover__height: 500px;
 --hover__padding: 1%;
 --hover__width: 300px;
 --color__default: white;

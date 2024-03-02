@@ -7,10 +7,11 @@
 }
 
 .card:hover{
+    cursor: pointer;
     height: var(--hover__height);
     padding: var(--hover__padding);
     width: var(--hover__width);
-
+    transition: (all .15s);
 
 }
 .card:nth-child(1) header{

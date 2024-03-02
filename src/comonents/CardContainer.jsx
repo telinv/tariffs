@@ -1,7 +1,7 @@
 import React from 'react';
 import { TariffsList } from './constants/TariffsList.js';
 import CardStructure from './CardStructure.jsx';
-import './cardContainer.css'
+import './cardContainer.css';
 
 
 
